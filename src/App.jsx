@@ -14,6 +14,7 @@ import Proyectos from "./screens/Proyectos";
 import Contacto from "./screens/Contacto";
 import Perfil from "./screens/Perfil";
 import Prueba from "./components/Prueba";
+import Carrusel from "./components/Carrusel";
 
 const rutas = [
   { ruta: "/proyectos", nombre: "Proyectos" },
@@ -61,7 +62,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       <div>
-        {/* <Prueba></Prueba> */}
+        {/* <Carrusel></Carrusel> */}
       </div>
     </div>
   );

@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -49,13 +53,20 @@ button {
 }
 
 .descripcionPerfil {
-  border: solid 4px;
-  width: 600px;
-  font-family: cursive;
+  width: 450px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   color: ghostwhite;
-  background-color: darkslategrey;
   letter-spacing: 2px;
+  
+  
+}
+.texto{
+  display: flex;
+  margin-left: 740px;
+  margin-top: 80px;
+  position: absolute;
+  font-size: 25px;
 }
 
 .perfil{
@@ -65,7 +76,20 @@ button {
   align-items: center;
 }
 
-.botonRedes{
-  height: 50px;
-  width: 50px;
+.imagenRedes{
+  height: 200px;
+  width: 200px;
+  
+}
+
+.fotosCarro{
+  height: 350px;
+  width: 500px;
+}
+
+.botonCarro{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  
 }
